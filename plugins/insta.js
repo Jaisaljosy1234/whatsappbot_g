@@ -2,7 +2,7 @@ const { instagram, bot } = require('../lib/')
 
 bot(
 	{
-		pattern: 'insta ?(.*)',
+		pattern: 'insta ?(*)',
 		fromMe: true,
 		desc: 'Download Instagram Posts',
 		type: 'download',

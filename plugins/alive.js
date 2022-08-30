@@ -2,7 +2,7 @@ const { bot, aliveMessage } = require('../lib/')
 
 bot(
 	{
-		pattern: 'alive ?(.*)',
+		pattern: 'hi ?(.*)',
 		fromMe: true,
 		desc: 'bot alive message',
 		type: 'misc',
